@@ -1,0 +1,96 @@
+
+
+body
+ {
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/dotted.png');
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main
+ {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 10px solid white;
+}
+
+#header {
+    background-color: #A8F0F0;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#header h1 
+{
+    font-family: Arial, sans-serif;
+    color: #14A8A8;
+    margin: 0;
+    font-weight: bold;
+}
+
+#header-text
+ {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#friends-box {
+    background-color: #99E0E0;
+    border: 4px solid #009097;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.friends-heading
+ {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.entry-box 
+{
+    background-color: #E8FBFB;
+    border: 4px solid #C2E9E9;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.date {
+    border-bottom: 2px dashed #009097;
+    font-weight: bold;
+}
+
+.entry-box h2 {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.entry-box img
+ {
+    float: right; /* Task me float mangi hai */
+    width: 150px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.highlight 
+{
+    font-style: italic;
+}
+
+p
+ {
+    text-align: justify;
+}

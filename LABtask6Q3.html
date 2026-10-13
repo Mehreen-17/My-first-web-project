@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hotel Reservation Form</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+    .form-title {
+        color: red;
+        text-align: center;
+    }
+    table {
+        background-color: #d6e8f5;
+        border: 2px solid #333;
+        border-collapse: collapse;
+        width: 500px;
+        margin: 0 auto;
+    }
+    td {
+        border: 1px solid #333;
+        padding: 8px;
+    }
+    .label {
+        font-weight: bold;
+        text-align: right;
+        width: 150px;
+    }
+    input[type="text"], input[type="email"] {
+        width: 90%;
+        padding: 3px;
+    }
+    .center-btn {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<h3 class="form-title">Continental Hotel Reservation Form</h3>
+
+<form>
+<table>
+<tr>
+    <td class="label">Name</td>
+    <td><input type="text" placeholder="Enter your name"></td>
+</tr>
+<tr>
+    <td class="label">eMail</td>
+    <td><input type="email" value="info@continental.pk"></td>
+</tr>
+<tr>
+    <td class="label">Mobile No</td>
+    <td><input type="text" placeholder="Enter your cell number"></td>
+</tr>
+<tr>
+    <td class="label">Arrival Time</td>
+    <td><input type="text" placeholder="Enter your arrival time"></td>
+</tr>
+<tr>
+    <td class="label">Departure</td>
+    <td>
+        <input type="text" style="width:25%;"> <input type="text" style="width:60%;">
+    </td>
+</tr>
+<tr>
+    <td class="label">Room Type</td>
+    <td>
+        <input type="radio" name="room"> Single
+        <input type="radio" name="room"> Double<br>
+        <input type="radio" name="room"> Presidential Suite
+    </td>
+</tr>
+<tr>
+    <td class="label">Preferences</td>
+    <td>
+        <input type="checkbox"> Non-Smoking<br>
+        <input type="checkbox"> Internet<br>
+        <input type="checkbox"> Firm Mattress
+    </td>
+</tr>
+<tr>
+    <td class="label">Mode of Payment</td>
+    <td>
+        <input type="checkbox"> Cash
+        <input type="checkbox"> Check<br>
+        <input type="checkbox"> Credit Card
+        <select>
+            <option>Select Card</option>
+            <option>Visa</option>
+            <option>Master Card</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td colspan="2" class="center-btn">
+        <input type="submit" value="Send Data">
+    </td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
